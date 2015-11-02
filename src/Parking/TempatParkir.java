@@ -6,11 +6,12 @@ public class TempatParkir {
     boolean parkirBuka;
     boolean tempatTersedia;
 
-    public TempatParkir(String areaParkir, int dayaTampung){
+    public TempatParkir(String areaParkir, int dayaTampung) {
         this.areaParkir = areaParkir;
         this.dayaTampung = dayaTampung;
-        System.out.println (this.areaParkir);
-        System.out.println (this.dayaTampung);
+        System.out.println(this.areaParkir);
+        System.out.println(this.dayaTampung);
+        System.out.println("--");
     }
     public void parkirBuka(){
         System.out.println ("Tempat Parkir Buka");

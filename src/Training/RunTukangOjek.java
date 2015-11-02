@@ -8,6 +8,6 @@ public class RunTukangOjek {
 
             Penumpang photonPenumpang = new Penumpang("Ratna");
             photonPenumpang.tujuan();
-
+//aa
         }
 }
